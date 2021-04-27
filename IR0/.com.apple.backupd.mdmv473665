@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DateStarted</key>
+	<date>2018-09-11T10:34:13Z</date>
+	<key>FileID</key>
+	<integer>473665</integer>
+	<key>NameSpaceID</key>
+	<integer>512601320</integer>
+	<key>NewPath</key>
+	<string>Users/momiccioli/Code/Arduino/iRemote/IR0/build-uno</string>
+	<key>SourcePath</key>
+	<string>Users/momiccioli/Code/Arduino/IR0/build-uno</string>
+</dict>
+</plist>

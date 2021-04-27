@@ -1,0 +1,74 @@
+These are the pins used in this circuit for the version of the remote
+that uses the additional memory 256kb (24LC256 eeprom chip).
+
+Atmega  Arduino   Description
+Pin     Pin       Used for
+------  -------   --------------------------------------------------------------
+01      Reset     Wired to: CTS and DTR via 104 cap
+02      00        Wired to: TXD
+03      01        Wired to: RXD
+04      02
+05      03        Wired to: IR Transmitter (Can't be moved)
+06      04        Wired to: Learn Button
+07      VCC
+08      GND
+09                Wired to: 16Mhz Crystal
+10                Wired to: 16Mhz Crystal
+11      05        Wired to: Mode Button
+12      06        Wired to: Down Button
+13      07        Wired to: Up Button*
+14      08        Wired to: IR Receiver*
+15      09        Wired to: Grn Light
+16      10        Wired to: Yel Light
+17      11        Wired to: Red Light*
+18      12        Wired to: Learn Light*
+19      13        Wired to: Power Light*
+20      VCC
+21      AREF      Wired to: GND via 104 Cap
+22      GND
+23      14        Wired to: Variable Resistor to control repeat speed
+24      15
+25      16
+26      17
+27      18        Wired to: 24LC256 and pulled high with 10K Resistor
+28      19        Wired to: 24LC256 and pulled high with 10K Resistor
+
+
+
+
+
+
+
+
+REVISED FOR 2-1
+Atmega  Arduino   Description
+Pin     Pin       Used for
+------  -------   --------------------------------------------------------------
+01      Reset     Wired to: CTS and DTR via 104 cap
+02      00        Wired to: TXD
+03      01        Wired to: RXD
+04      02        Wired to: IR Receiver
+05      03        Wired to: IR Transmitter (Can't be moved)
+06      04        Wired to: Learn Button
+07      VCC
+08      GND
+09                Wired to: 16Mhz Crystal
+10                Wired to: 16Mhz Crystal
+11      05        Wired to: Mode Button
+12      06        Wired to: Down Button
+13      07        Wired to: Trans Up Button*
+14      08        Wired to: Trans
+15      09        Wired to: Grn Light
+16      10        Wired to: Yel Light
+17      11        Wired to: Trans Red Light*
+18      12        Wired to: Trans
+19      13        Wired to: Trans
+20      VCC
+21      AREF      Wired to: GND via 104 Cap
+22      GND
+23      14        Wired to: Variable Resistor to control repeat speed
+24      15        Wired to: Power Blue
+25      16        Wired to: Learn Green
+26      17
+27      18        Wired to: 24LC256 and pulled high with 10K Resistor
+28      19        Wired to: 24LC256 and pulled high with 10K Resistor
