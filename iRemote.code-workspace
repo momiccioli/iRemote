@@ -1,0 +1,39 @@
+{
+	"folders": [
+        {
+            "path": "Arduino/iRemote"
+        }
+    ],
+	"settings": {
+        "actionButtons": {
+            "commands": [
+                {
+                    "name": "Upload",
+                    "singleInstance": true,
+                    "color": "#fceb09",
+                    "command": "~/Scripts/makeit.sh ${fileDirname} upload",
+                },
+                {
+                    "name": "Verify",
+                    "singleInstance": true,
+                    "color": "#fceb09",
+                    "command": "~/Scripts/makeit.sh ${fileDirname}",
+                },
+                {
+                    "name": "Devices",
+                    "singleInstance": true,
+                    "color": "#fceb09",
+                    "command": "ls /dev/ | grep tty.usb",
+                },
+                {
+                    "name": "Test",
+                    "singleInstance": true,
+                    "color": "white",
+                    "command": "editor.action.formatDocument",
+                }           
+            ]
+        },
+        "editor.minimap.enabled": false
+    }
+
+}
